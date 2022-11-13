@@ -1,0 +1,349 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ccd5ae;
+    margin: 0px;
+}
+
+header {
+    background-color: #f5eccd;
+    color: black;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+nav {
+    background-color: #f5eccd;
+    font-family: "Avantgarde,TeX Gyre Adventor,URW Gothic L,sans-serif";
+    text-align: right;
+    font-size: 30px;
+}
+
+nav a {
+    padding: 14px 16px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #756d54;
+    color: white;
+}
+
+footer {
+    background-color: #f5eccd;
+    text-align: center;
+    color: #444444;
+    padding: 10px;
+    font-size: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    float: right;
+    width: 73%;
+    height: auto;
+}
+
+aside {
+    float: left;
+    width: 25%;
+    height: 1000px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Avantgarde,TeX Gyre Adventor,URW Gothic L,sans-serif";
+    line-height: 40px;
+}
+
+.contact_top {
+    display: flex;
+    float: right;
+    height: 70px;
+    width: 70px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.contact_bottom {
+    height: 45px;
+    width: 45px;
+    padding: 5px;
+    display: inline;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 10px;
+    border-radius: 10px;  
+    background-image: url(images/stone.jpg);
+    background-size: cover; 
+}
+
+.card1 {
+    height: auto;
+    background-color: white;
+    padding: 20px;
+    margin: 20px 10px;
+    border-radius: 10px;  
+    background-image: url(images/stone.jpg);
+    background-size: cover; 
+}
+
+.cert{
+    width: auto;
+}
+
+.cnsubtitle {
+    font-size: 22px;
+    text-align: center;
+}
+
+.engsubtitle {
+    text-decoration: underline;
+    font-size: 16px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+
+.self {
+    border-radius: 100%;
+    height: 250px;
+}
+.motto {
+    float: left;
+    font-family: "Microsoft JhengHei";
+    font-size: 45px;
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 50px;
+    display: flex;
+    color: gray;
+}
+
+.my_info {
+    list-style: inside;
+    text-align: left;
+    font-family: Didot, serif,"Microsoft JhengHei";
+}
+
+.bar_chart {
+    height: auto;
+    position: relative;
+    padding: 1rem;
+    margin: 1rem -0.75rem 0;
+    border: solid #dee2e6;
+    border-width: 1px 0 0;
+}
+
+.progress {
+    display: flex;
+    height: auto;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    margin: 16px;
+}
+
+.progress-bar-striped {
+    background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    background-size: 1rem 1rem;
+}
+
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #d6ccc2;
+    transition: width .6s ease;
+}
+
+.bg_java {
+    background-color: #d5bdaf!important;
+}
+
+.bg_html {
+    background-color: #c9ada7!important;
+}
+
+.bg_css {
+    background-color: #d4a373!important;
+}
+
+.bg_eng {
+    background-color: #a98467!important;
+}
+
+.ctrl_array{
+    display: flex;
+    justify-content: center;
+}
+
+.array{
+    width: 860px;
+    display: flex;
+    margin: auto;
+}
+
+.item{
+    margin: 0px 20px;
+    border-style: none;
+    width: auto;
+}
+
+.item_text{
+    line-height: 25px;
+}
+
+.item_text h1{
+    text-align: center;
+    font-size: 22px;
+    margin: 10px;
+    letter-spacing: 3px;
+}
+
+.item_text h2{
+    text-align: center;
+    font-size: 18px;
+    margin: 10px;
+    letter-spacing: 3px;
+    white-space: nowrap;
+}
+
+.item_text p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    letter-spacing: 3px;
+}
+
+.ctrl_array2{
+    padding-left: 0;
+}
+
+.array2{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.item2_img{
+    margin: 0px 60px;
+    padding: 10px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.item2_img img{
+    box-shadow: 3px 3px 5px;
+    display: block;
+}
+
+.educate_bg{
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.ctrl_array1{
+    display: flex;
+    justify-content: center;
+}
+
+.array1{
+    width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item1{
+    display: flex;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+.item1_pic img{
+    border-radius: 10px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.item1_video iframe{
+    cursor: pointer;
+}
+
+.item1_text p{
+    margin: 0px 10px;
+    text-indent: 32px;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.item1_text h1{
+    margin: 0px 10px;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-align: center;
+    text-shadow: 12px 2px 20px;
+    font-size: 28px;
+    font-family: Didot, serif,"Microsoft JhengHei";
+    color: #4a4e69;
+}
+
+.item1_text p{
+    margin: 0px 10px;
+    font-family: Didot, serif,"Microsoft JhengHei";
+}
+
+@media screen and (max-width: 800px) {
+
+    article,
+    aside {
+        float: none;
+        width: 100%;
+    }
+
+    .card {
+        padding: 10px;
+        margin: 15px;
+    }
+
+    img {
+        max-width: 100%;
+        height: 90%;
+    }
+}
